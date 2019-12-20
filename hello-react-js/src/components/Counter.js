@@ -5,15 +5,15 @@ class Counter extends Component{
     constructor(){
         super()
         this.state = {
-            counter: '0'
+            counter: 0
         }
     }
 
     incrementCounter = () =>{
 
         this.setState({
-            counter: '1'
-        })
+            counter: this.state.counter + 1
+        }, () => {console.log('Callback Value', this.state.counter)})
     }
 
     render(){
