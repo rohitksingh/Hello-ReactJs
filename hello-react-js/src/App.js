@@ -8,8 +8,8 @@ import WelcomeClassComponent from './components/WelcomeClassComponent'
 function App() {
   return (
     <div className="App">
-      <Greet/> 
-      <Welcome/>
+      {/* <Greet/> 
+      <Welcome/> */}
       <WelcomeClassComponent/>
     </div>
   );
