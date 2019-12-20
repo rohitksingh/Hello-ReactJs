@@ -7,6 +7,7 @@ import WelcomeClassComponent from './components/WelcomeClassComponent'
 import User from './components/User'
 import UserClass from './components/UserClass'
 import MessageStateComponent from './components/MessageStateComponent'
+import Counter from './components/Counter'
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* <UserClass name="Rohit"/>
       <UserClass name="Singh"/>
       <UserClass name="XYZ"/> */}
-      <MessageStateComponent/>
+      {/* <MessageStateComponent/> */}
+      <Counter/>
     </div>
   );
 }

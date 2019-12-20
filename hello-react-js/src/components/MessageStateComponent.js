@@ -2,22 +2,6 @@ import React, {Component} from 'react'
 
 class MessageStateComponent extends Component{
 
-
-    // constructor() {
-    //     super();
-    //     this.state = {
-    //        title: "Click here"
-    //     }
-    //  }
-  
-    //  changeTitle = () => {
-    //     this.setState({ title: "New title" });
-    //  };
-  
-    //  render() {
-    //      return <h1 onClick={this.changeTitle}>{this.state.title}</h1>;
-    //  }
-
     constructor(){
         super()
         this.state = {
