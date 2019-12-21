@@ -11,6 +11,7 @@ import Counter from './components/Counter'
 import DestructureFunComp from './components/DestructueFunComp'
 import DestructueClassComp from './components/DestructureClassComp'
 import DestructureClassComp from './components/DestructureClassComp';
+import EventHandlingFunComp from './components/EventHandlingFunComp'
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
       {/* <Counter/> */}
       {/* <DestructureFunComp name="Rohit" age="17" uid="1012"/>
       <DestructureFunComp name="Singh" age="21" uid="1014"/> */}
-      <DestructureClassComp name="Jon" age='233'/>
+      {/* <DestructureClassComp name="Jon" age='233'/> */}
+      <EventHandlingFunComp/>
     </div>
   );
 }
