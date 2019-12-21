@@ -8,6 +8,7 @@ import User from './components/User'
 import UserClass from './components/UserClass'
 import MessageStateComponent from './components/MessageStateComponent'
 import Counter from './components/Counter'
+import DestructureFunComp from './components/DestructueFunComp'
 
 function App() {
   return (
@@ -22,7 +23,10 @@ function App() {
       <UserClass name="Singh"/>
       <UserClass name="XYZ"/> */}
       {/* <MessageStateComponent/> */}
-      <Counter/>
+      {/* <Counter/> */}
+      <DestructureFunComp name="Rohit" age="17" uid="1012"/>
+      <DestructureFunComp name="Singh" age="21" uid="1014"/>
+      
     </div>
   );
 }
